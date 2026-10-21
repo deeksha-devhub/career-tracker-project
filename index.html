@@ -4,42 +4,80 @@
  <head>
     <meta charset="UTF-8">
     <title>My Career Tracker</title>
-    <style>
-      img{
-       height: 200px;
-       width: 350px;
-      }
-      a[href]{
-       color:blue;
-      }
-      
-    </style>  
+    <meta name="viewport">
+    <link rel="stylesheet" href="style.css">
  </head>
 
  <body>
-  <h1>My Career Tracker</h1>
+    <header>
+        <h1>Career Tracker</h1>
+        <p>Track your Learning.Build your future.</p>
+    </header>
 
-  
-  <p>  Welcome to my personal career tracking website.
-  This website helps me track my skills, goals, and learning progress.
+  <section class="welcome">
+    <h2>Welcome to Your Career Tracker</h2>
+  <p> Your journey to a successful career starts here. 
+    Set your goals, develop technical skills, follow your
+     learning roadmap, and prepare for placements.
   </p>
+  </section>
 
-  <img src="./istockphoto-546467978-1024x1024.jpg" height="300"/>
+  <img src="./istockphoto-546467978-1024x1024.jpg" height="250" width="500"/>
   
    
  
  <h2>My Goal</h2>
- <p>AI Software Engineer</p>
+ <p class="goal">AI Software Engineer</p>
  
  <hr>
 
- <h2>Navigation Links</h2>
-
- <a href="./goals.html">Goals</a> <br/>
- <a href="./skills.html">Skills</a> <br/>
- <a href="./roadmap.html">Roadmap</a> <br/>
- <a href="./progress.html">Progress</a> <br/>
  
+<section class="dashboard-section">
+
+    <h2>My Career Dashboard</h2>
+
+    <p class="dashboard-description">
+        Organize your learning and take the next step toward your dream career.
+    </p>
+
+    <div class="dashboard">
+
+        
+        <div class="card">
+            <div class="card-icon">🎯</div>
+            <h3>Career Goals</h3>
+            <p>Set your career goals and keep track of your targets.</p>
+            <a href="goals.html" class="btn">View Goals →</a>
+        </div>
+
+        
+        <div class="card">
+            <div class="card-icon">💻</div>
+            <h3>Technical Skills</h3>
+            <p>Develop your programming skills and learn new technologies.</p>
+            <a href="skills.html" class="btn">Explore Skills →</a>
+        </div>
+
+        
+        <div class="card">
+            <div class="card-icon">🗺️</div>
+            <h3>Learning Roadmap</h3>
+            <p>Follow your learning path step by step.</p>
+            <a href="roadmap.html" class="btn">View Roadmap →</a>
+        </div>
+
+        
+        <div class="card">
+            <div class="card-icon">📈</div>
+            <h3>My Progress</h3>
+            <p>Review your learning activities and completed tasks.</p>
+            <a href="progress.html" class="btn">Track Progress →</a>
+        </div>
+
+    </div>
+
+</section>
+
  </body>
 
 </html>

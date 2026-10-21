@@ -1,3 +1,118 @@
 *{
-    background-color: aquamarine;
+    marging: 0;
+    padding: 5;
 }
+body{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background-color: #F5F3FF;
+    color: #2c3e50;
+    line-height: 1.6;
+}
+
+header{
+    color: white;
+    padding: 20px 40px ;
+    background: linear-gradient(135deg, #280759,#4d1f9d);
+}
+
+
+header h1{
+    font-size: 20px;
+    margin-bottom: 4px;
+}
+header p{
+    color: #E9D5FF;
+}
+nav{
+    background-color: azure;
+    padding: 15px 40px;
+    display: flex;
+    gap: 25px;
+    flex-wrap: wrap;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+}
+
+nav a{
+    text-decoration: none;
+    color: #243b55;
+    font-weight: bold;
+    font-family:'Times New Roman', Times, serif;
+    transition: color 0.3s;
+}
+
+.welcome h2{
+        font-size: 26px;
+        font-family:Arial, Helvetica, sans-serif;
+}
+
+.dashboard-section{
+    margin-top: 35px;
+    margin-bottom: 40px;
+}
+.dashboard-section h2{
+    color: #4C1D95;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.dashboard-description{
+    color: #4C1D95;
+    margin-bottom: 8px;
+}
+.dashboard{
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 25px;
+}
+.card{
+    background-color: white;
+    padding: 27px;
+    border-radius: 15px;
+    border: 1.5px solid #E9D5FF ;
+    box-shadow:  0 5px 15px rgba(0,0,0,0.08);
+    transition: transform 0.3s, box-shadow 0.3s;
+
+}
+.card h3{
+    color: green;
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+.card p{
+    color: #64748b;
+    line-height: 1.6;
+}
+
+.card .btn{
+    display: inline-block;
+    background-color: rgb(84, 161, 84);
+    color: white;
+    padding: 10px 16px;
+    margin-top: 18px;
+    border-radius: 8px;
+    text-decoration: none;
+    font-weight: bold;
+    transition: background-color 0.3s;
+}
+
+.card-icon{
+    font-size: 35px;
+    margin-bottom: 12px;
+}
+.card p{
+    color: #64748B;
+    line-height: 1.6;
+}
+
+
+@media (max-width: 600px) {
+    .dashboard {
+        grid-template-columns: 1fr;
+    }
+    .dashboard-section h2{
+        font-size: 24px;
+    }
+    .card{
+        padding: 22px;
+    }
+}
+
+
