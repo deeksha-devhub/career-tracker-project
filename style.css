@@ -1,27 +1,34 @@
 *{
-    marging: 0;
-    padding: 5;
+    margin: 0;
+    padding: 5px;
+    box-sizing: border-box;
 }
 body{
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    background-color: #F5F3FF;
-    color: #2c3e50;
+    background-color: #f5f6fc;
+    color: #202544;
     line-height: 1.6;
+    padding-bottom: 40px;
 }
 
 header{
     color: white;
-    padding: 20px 40px ;
-    background: linear-gradient(135deg, #280759,#4d1f9d);
+    padding: 35px 20px ;
+    background: linear-gradient(135deg, #171c45,#5146b8);
+    text-align: center;
+    box-shadow: 0 4px 15px rgba(23, 28, 69, 0.15);
+
 }
 
 
 header h1{
-    font-size: 20px;
-    margin-bottom: 4px;
+    font-size: 2.5rem;
+    margin-bottom: 6px;
+    letter-spacing: 0.5;
 }
 header p{
-    color: #E9D5FF;
+    color: #e2e4ff;
+    font-size: 1.1rem;
 }
 nav{
     background-color: azure;
@@ -43,6 +50,20 @@ nav a{
 .welcome h2{
         font-size: 26px;
         font-family:Arial, Helvetica, sans-serif;
+}
+
+.welcome{
+    max-width: 1000px;
+    margin: 40px auto 30px;
+    padding: 30px;
+    background: white;
+    border-radius: 18px;
+    border-left: 5px solid #7065e8;
+    box-shadow: 0 5px 20px;
+}
+.welcome p{
+    color: 646B80;
+    max-width: 750px;
 }
 
 .dashboard-section{
@@ -94,12 +115,28 @@ nav a{
 }
 
 .card-icon{
-    font-size: 35px;
-    margin-bottom: 12px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 55px;
+    height: 55px;
+    background: #eeecff;
+    border-radius: 15px;
+    font-size: 27px;
+    margin-bottom: 18px;
+    
 }
 .card p{
-    color: #64748B;
+    color: #70768a;
     line-height: 1.6;
+    font-size: 1.20rem;
+    margin-bottom: 8px;
+}
+
+.card h3{
+    color: #29265f;
+    font-size: 1.25rem;
+    margin-bottom: 10px;
 }
 
 
