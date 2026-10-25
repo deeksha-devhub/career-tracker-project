@@ -10,7 +10,7 @@ The project provides a simple interface to organize career preparation in one pl
 
 ## 🌐 Live Demo
 
-🔗 [Visit Career Tracker Website](https://deeksha-devhub.github.io/career-tracker-project/)
+🔗 [Visit Career Tracker Website](file:///C:/Users/deeks/Projects/Career-Tracker/index.html)
 
 ## ✨ Features
 
